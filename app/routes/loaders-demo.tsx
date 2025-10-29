@@ -36,9 +36,6 @@ export default function Loaders() {
 
     const { users } = useLoaderData();
 
-
-
-    console.log(users);
     return (
         <>
             <div className="flex flex-col gap-2">
